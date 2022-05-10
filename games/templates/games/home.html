@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+Game Shop
+
+{% endblock title %}
+
+{% block content %}
+{% for game in game_list %}
+ <div class="game">
+     <h2>{{game.title}}</h2>
+     <img src="{{game.image.url}}"
+     <p>Игра добавлена пользавателем{{game.owener}}{{game.created}}</p>
+     <p>Дата последнего обновления записи:{{game.updated}}</p>
+     <h3>Оптсание игры</h3><p>{{game.description}}</p>
+     
+ </div>
+ {% endfor %}
+Здесь будут игры
+
+{% endblock content %}
