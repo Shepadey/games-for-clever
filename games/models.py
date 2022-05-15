@@ -1,6 +1,7 @@
 from tkinter import CASCADE
 from django.db import models
 from django.contrib.auth import get_user_model
+from django.urls import reverse
 class Game(models.Model):
     title=models.CharField(max_length=50)
     description= models.TextField()
@@ -10,6 +11,9 @@ class Game(models.Model):
     created=models.DateTimeField(auto_now=True)
     updated=models.DateTimeField(auto_now=True)
     image=models.ImageField(blank=True)
+    def get_absolute_url(self):
+        return reverse("game_detail", args=[self.slug])
+    
     def __str__(self) :
         return f'{self.title}'
 
