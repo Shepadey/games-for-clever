@@ -3,4 +3,13 @@
 Game Shop
 {% endblock title %}
 {% block content %}
+<h1 class="game-detail-title-1">{{game.title}}</h1>
+<p class="price">Цена игры оставляет {{game.price}}$</p>
+<a href="{{game.get_absolute_url}}">
+    <img src="{{game.image.url}}"></a>
+    <h2 class="game-detail-title-2"> Информация об игре </h2>
+    <p class="game-info"> Игра добавлена пользавателем {{game.owner}} Время {{game.created}} </p>
+    <h2 class="game-detail-title-2"> Описание игры {{game.description}} </h2>
+    <h2 class="game-detail-title-2"> Коментарии к игре {{game.comment}} </h2>
+
 {% endblock content %}

@@ -10,7 +10,7 @@ Game Shop
 {% for game in game_list %}
  <div class="game">
      <h2 ><a href="{{game.get_absolute_url}}">{{game.title}}</a></h2>
-     <img src="{{game.image.url}}"
+     <img src="{{game.image.url}}" > 
      <p class="game-date">Игра добавлена пользавателем{{game.owener}}{{game.created}}</p>
      <p class="game-date">Дата последнего обновления записи:{{game.updated}}</p>
      <h3>Оптсание игры</h3><p>{{game.description}}</p>

@@ -28,3 +28,22 @@ body{
     margin: 0;
     font-style: italic ;
 }
+.game a{
+    text-decoration: none;
+    color: darkviolet;
+}
+.game-detail-title-1 {
+  color: darkviolet;
+  border-bottom: white 5px double;
+  font-weight: normal;
+}
+.game-detail-title-2{
+    color: darkgreen;
+    border-bottom: greenyellow 3px solid;
+    font-weight: normal;
+}
+.price{
+    text-decoration: underline;
+    font-weight: bold;
+    color: magenta;
+}

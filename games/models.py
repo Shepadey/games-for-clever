@@ -11,6 +11,7 @@ class Game(models.Model):
     created=models.DateTimeField(auto_now=True)
     updated=models.DateTimeField(auto_now=True)
     image=models.ImageField(blank=True)
+    
     def get_absolute_url(self):
         return reverse("game_detail", args=[self.slug])
     
