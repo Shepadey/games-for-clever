@@ -11,7 +11,8 @@ Game Shop
     <h1> Game Shop</h1>
     <div class = "login-logout-reg-nav">
         {% if user.is_authenticated %}
-        <a href="{% url 'logout' %}">Выйти из аккаунта </a>
+         Добро пожаловать {{user.username}} 
+        <a class="logout" href="{% url 'logout' %}">  Выйти из аккаунта </a>
         {% else %}
         <a href="{% url "login" %}">
             Войти на сайт</a>
