@@ -13,9 +13,13 @@ Game Shop
         {% if user.is_authenticated %}
          Добро пожаловать {{user.username}} 
         <a class="logout" href="{% url 'logout' %}">  Выйти из аккаунта </a>
+        <a href="{% url 'password_change' %}">
+            Сменить пароль</a>
         {% else %}
-        <a href="{% url "login" %}">
+        <a href="{% url 'login' %}">
             Войти на сайт</a>
+        <a href="{% url 'sign_up' %}">
+            Зарегистрироваться на сайте</a>
             {% endif %}
     </div>
 </div>
