@@ -101,3 +101,12 @@ body{
 .logout{
     margin-left: 20px;
 }
+.password_reset_email.html{
+    background-color: burlywood;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+.psaaword_change_done.html{
+    font-style: italic;
+}  
