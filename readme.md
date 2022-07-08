@@ -3,4 +3,5 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Shepadey)](https://git.io/streak-stats)
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Shepadey)](https://github.com/anuraghazra/github-readme-stats)
 [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Shepadey)](https://github.com/ashutosh00710/github-readme-activity-graph)
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=Shepadey=dark)](https://github.com/KnlnKS/leetcode-stats)
+[![codewars](https://www.codewars.com/users/username/badges/large)](https://www.codewars.com/users/username)   
+
